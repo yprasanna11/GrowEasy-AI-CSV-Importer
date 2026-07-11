@@ -23,7 +23,7 @@ export default function Home() {
       setMessage("");
 
       const response = await axios.post(
-        "http://localhost:5000/api/upload",
+        "https://groweasy-backend-yh3w.onrender.com/api/upload",
         formData
       );
 
